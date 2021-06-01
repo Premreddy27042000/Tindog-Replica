@@ -1,0 +1,191 @@
+#title{
+    background-color: #ff4c68;
+}
+h1 { 
+     font-family: 'Montserrat, sans-serif'; 
+      font-size: 3rem; 
+       line-height: 1.5; 
+        font-weight: 900;
+    }
+
+
+.container-fluid{
+    padding: .6% 6% 6%;
+ 
+}
+.navbar{
+    padding-bottom: 4.4rem;
+}
+.row{
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+ h1{
+    font-size: 5rem;
+    color: white;
+  
+}
+
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.4rem;
+}
+
+.nav-item{
+    font-size: 2rem;
+    padding:0 20px;
+}
+
+.download-button{
+    margin:5% 3% 5% 0 ;
+    border-radius: 20px;
+}
+
+.download-button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 1s;
+    letter-spacing: 6px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    letter-spacing: 100;
+}
+
+.title-img{
+    width: 26%;
+   
+    transform: rotate(22deg);
+    position: absolute;
+    right: 16%;
+    
+
+    
+}
+
+#features{
+    position: relative;
+    background-color: white;
+  
+    padding: 8% 14% 4%;
+    text-align: center;
+    z-index: 1;
+    
+   
+}
+
+#features h3{
+   padding-top: 20px;
+   font-size: 30px;
+   font-weight: 900;
+   padding-bottom: 20px;
+   
+}
+#features p{
+    padding-bottom: 30px;
+}
+
+.icon{
+    color:#ef8172 ;
+    transition: height 4s;
+}
+.icon:hover{
+    color: #000;
+    width: 100%;
+    height: 160px;
+  
+}
+h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 10px;
+    font-size: 2.8rem;
+    line-height: 2;
+    font-weight: 900;
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172 ;
+    color: #fff;
+}
+.test{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+    
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.press-logo{
+    width: 16%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 6% 16%;
+}
+
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 5%;
+}
+
+#cta{
+    background-color: #ff4c68;
+  
+    padding:4% 14%;
+    text-align: center;
+}
+
+#cta h3{
+    font-size: 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+#space{
+    margin: 10px;
+}
+#footer{
+    text-align: center;
+    padding: 4% 14%;
+}
+
+
+
+#footer p{
+    padding-top: 20px;
+}
+@media  (max-width:990px) {
+    h1{
+        font-size:2rem;
+    }
+    .row{
+           text-align: center;
+           padding: 0
+    }
+    h2{
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        font-weight: 600;
+    }
+    .title-img{
+        position: static;
+        padding-top: 50px;
+        width: 36%;
+        transform: rotate(0);
+    }
+}
+
